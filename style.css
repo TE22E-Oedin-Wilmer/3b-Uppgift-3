@@ -1,0 +1,94 @@
+/*Wilmer Ödin TE22E*/
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Times New Roman', Times, serif;
+}
+
+.top {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+gap: 10px;
+background-color: #35424a;
+color: white;
+border-bottom: 3px solid yellow;
+}
+
+.top a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+}
+
+.övre {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 30px;
+padding-bottom: 50px;
+gap: 20px;
+background-image: url(showcase\ \(1\).jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+border-bottom: 3px solid red;
+}
+
+.övre h1 {
+font-size: 3rem;
+}
+
+.övre p {
+width: 65%;
+text-align: center;
+}
+
+.mellan {
+display: flex;
+justify-content: center;
+background-color: #35424a;
+color: white;
+border-bottom: 3px solid yellow;
+}
+
+.mellan h1 {
+padding: 15px 0;
+}
+
+.undre {
+display: flex;
+border-bottom: 3px solid orange;
+}
+
+.box {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 0;
+gap: 10px;
+background-color: #eee;
+border: 2px solid yellow;
+border-style: none solid;
+}
+
+.box img {
+max-width: 40%;
+}
+
+.box p {
+    text-align: center;
+}
+
+.sidfot {
+display: flex;
+justify-content: center;
+padding: 10px 0;
+background-color: #e8491d;
+color: white;
+}
